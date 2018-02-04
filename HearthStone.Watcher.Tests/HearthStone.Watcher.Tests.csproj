@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <StartupObject></StartupObject>
+    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <RootNamespace>HearthStone.Watcher.Tests</RootNamespace>
+	  <AssemblyName>HearthStone.Watcher.Tests</AssemblyName>
+	  <Version>1.0.1</Version>
+	  <Description>HearthStone Deck Tracker Watcher Tests</Description>
+	  <PackageTags>HearthStone Deck Tracker Watcher Tests</PackageTags>
+	  <PackageReleaseNotes>Upgraded build configurations.</PackageReleaseNotes>
+	  <RepositoryType>GIT</RepositoryType>
+	  <RepositoryUrl>https://github.com/Latency/HearthStone.Watcher.Tests</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/Latency/HearthStone.Watcher.Tests</PackageProjectUrl>
+	  <Copyright>Copyright © HearthSim</Copyright>
+	  <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+	  <Company>HearthSim</Company>
+	  <Authors>HearthSim</Authors>
+	  <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HearthStone.Watcher" Version="1.0.1" />
+    <PackageReference Include="NUnit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+  </ItemGroup>
+
+</Project>
